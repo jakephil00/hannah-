@@ -1,0 +1,36 @@
+:root{ 
+    --branco-principal: #ffffff;/* cria uma variavel e coloca o valor da
+    cor dentro dela*/
+    --vermelho-secundario: #dc143c;
+    --botao-vermelho: #660000;
+    --cor-de-fundo: #ffe8e7;
+    }
+    body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    }
+    * {
+    margin:0;
+    padding: 0;
+    }
+    .principal{
+    background-image: url(https://img.freepik.com/fotos-gratis/cesta-de-morangos-maduros-com-velho-fazendeiro_7502-8058.jpg?size=626&ext=jpg); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    }
+    .container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    }
+    .container__botao{
+    background-color: var(--botao-vermelho); 
+    border-radius: 5px; 
+    padding: 1em; 
+    color: var(--branco-principal);
+    display: block;
+    }
+    .botao__secundario{
+    background-color: transparent;
+    border: 2px solide var(--branco-principal);
+    }
